@@ -1,0 +1,103 @@
+@font-face { 
+    font-family: 'JetBrains';
+    src: url('font/JetBrainsMono-Regular.ttf') format('truetype');
+    }
+
+body {
+    margin: 0;
+    font-family: JetBrains;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    position: absolute;
+    left: 700px;
+    top: 30px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: #615F60;
+  }
+  
+  .topnav a:active {
+    color: white;
+  }
+
+  .rectangle {
+    height: 4px;
+    width: 17px;
+    background-color: #6096B4;
+    top: 43px;
+  }
+
+  .Logo b {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+  }
+
+.Logo img {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+
+.Pic c {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.Pic img{
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+}
+
+.Intro {
+    font-family: JetBrains;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Intro h3{
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    left: 300;
+    top: 300;
+}
+
+.Intro h1{
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    left: 300;
+    top: 340;
+}
+
+.Intro p {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Intro h4{
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    left: 300;
+    top: 400;
+}
